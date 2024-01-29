@@ -54,6 +54,7 @@ class Perceptron:
 perceptron = Perceptron(num_neurons=15, threshold=7) # создание объекта класса
 perceptron.train(nums, target_digit=9, iterations=1000) # вызов функции обучения
 
+# проверка сети
 print("0 это 6? ", perceptron.activate(num0))
 print("1 это 6? ", perceptron.activate(num1))
 print("2 это 6? ", perceptron.activate(num2))
